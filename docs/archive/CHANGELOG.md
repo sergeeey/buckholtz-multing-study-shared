@@ -1,5 +1,19 @@
 # Changelog
 
+> ℹ️ **HISTORICAL — version-tagged releases stopped at `0.4.0` (2026-06-06);
+> flagged 2026-09-14, navigation pass.** The project moved from semantic-version
+> releases to a dated, per-experiment evidence trail, so the absence of later
+> entries is a change of method, not a gap in work. Roughly three months of
+> subsequent work is recorded in `experiments/`, `null_results/`, `docs/`, and
+> the commit history instead. This file remains accurate for what it covers.
+> For what happened after `0.4.0`: `git log`,
+> [`CURRENT_EVIDENCE_STATE.md`](../../CURRENT_EVIDENCE_STATE.md), and
+> [`PROGRAM_CLOSEOUT_LEDGER.md`](../../PROGRAM_CLOSEOUT_LEDGER.md).
+>
+> *Moved from the repository root to `docs/archive/` on 2026-09-14, when
+> the root was reduced to live documents only. Its former path was
+> `CHANGELOG.md`.*
+
 All notable changes to this project are documented here.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 

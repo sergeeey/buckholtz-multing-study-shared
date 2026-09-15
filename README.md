@@ -31,8 +31,7 @@ it runs for it, likewise. Nothing here is an audit *of him*.
 2. [`CURRENT_EVIDENCE_STATE.md`](CURRENT_EVIDENCE_STATE.md) — the full
    detail behind the Ledger: what is reproduced, what is refuted or
    weakened, the open bottlenecks, and an explicit list of what cannot
-   be claimed publicly. (`PROJECT_STATUS.md` further down is an
-   older, explicitly-superseded snapshot kept for history only.)
+   be claimed publicly.
 3. [`docs/151_status_separation_rule.md`](docs/151_status_separation_rule.md) —
    the rule every verdict here obeys: empirical status, ontological
    interpretation, and causal claim are three separate fields, never collapsed.
@@ -46,6 +45,24 @@ it runs for it, likewise. Nothing here is an audit *of him*.
 |---|---|
 | Is there a falsifiable prediction? | [`PREREGISTRATION_v82_prospective_tests.md`](PREREGISTRATION_v82_prospective_tests.md) — three predictions frozen 2026-09-07 with PASS/FAIL thresholds, each graded for discriminating power by its own author (two of three: *weak*) |
 | Best-fit vs best-fit, not against published values? | [`FINDING_P166`](experiments/20260803-bridge/FINDING_P166_aic_bic_from_v82_own_table_ii.md) — AIC/BIC on the preprint's *own* two re-fitted ΛCDM benchmarks; and [`FINDING_E8`](experiments/20260906-evidence-authority/FINDING_E8_full_covariance_propagation.md) — every defensible `\|Δχ²\|` lands in `[−1.27, +2.64]`, i.e. the 33-point dataset does not discriminate in either direction |
+
+**The repository root holds only live documents** (as of 2026-09-14). If it is
+in the root, it describes the project as it currently stands:
+
+| Root document | Role |
+|---|---|
+| `README.md` | this file — framing, source, install, disclaimers |
+| [`PROGRAM_CLOSEOUT_LEDGER.md`](PROGRAM_CLOSEOUT_LEDGER.md) | claim-by-claim index + current governance mode |
+| [`CURRENT_EVIDENCE_STATE.md`](CURRENT_EVIDENCE_STATE.md) | canonical evidence detail |
+| [`PREREGISTRATION_v82_prospective_tests.md`](PREREGISTRATION_v82_prospective_tests.md) | three predictions frozen 2026-09-07 |
+| [`CLAUDE.md`](CLAUDE.md) | operating rules for anyone (or anything) contributing |
+
+Everything else moved out of the root on 2026-09-14:
+[`docs/archive/`](docs/archive/) holds six dated snapshots that are **not**
+current state — each with a banner explaining what overtook it — and
+[`docs/meta/`](docs/meta/) holds the standing process documents
+(`decisions.md`, `lessons_learned.md`), which are still binding but are not
+status reports. Both folders have a README index.
 
 **Source material is not redistributed here.** `data/source_material/` is
 git-ignored: the preprints and the author's supplemental code live on

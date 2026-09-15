@@ -1,5 +1,16 @@
 # Lessons Learned — Process & Tooling
 
+> ℹ️ **`PROCESS` tier — workflow lessons, not findings (flagged 2026-09-14,
+> navigation pass).** Append-only by design; its date is not staleness. The
+> scope note immediately below is load-bearing and easy to miss: **falsified
+> scientific claims are not here**, they are in `null_results/` with the full
+> template. Nothing in this file is evidence for or against any physical claim.
+> For findings: [`PROGRAM_CLOSEOUT_LEDGER.md`](../../PROGRAM_CLOSEOUT_LEDGER.md).
+>
+> *Moved from the repository root to `docs/meta/` on 2026-09-14, when
+> the root was reduced to live documents only. Its former path was
+> `lessons_learned.md`.*
+
 **Scope note:** this file is for *workflow/tooling* lessons — how we work, not what we
 found. Falsified *scientific* claims belong in `null_results/` with the full FL template
 (Claim / Why falsified / Kill Analysis / Relaxation Map / Forbidden use) — do not put a
